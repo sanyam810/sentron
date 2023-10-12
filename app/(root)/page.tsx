@@ -1,10 +1,16 @@
-import { Button } from "@/components/ui/button";
+"use client";
+import Navbar from "@/components/navbar";
+
 
 export default function Home() {
   return (
-   
-   <div className="p-4">
-      <Button>Deploy</Button>
+   <div className="min-h-screen">
+      <div className="">
+        <div>
+          <Navbar/>
+
+        </div>
+      </div>
    </div>
   )
 }

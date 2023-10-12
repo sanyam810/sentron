@@ -5,7 +5,7 @@ import { DropdownMenu, DropdownMenuTrigger, DropdownMenuItem, DropdownMenuConten
 
 const Navbar = () => {
     return (
-        <div className="bg-transparant flex justify-end p-4 gap-5"> 
+        <div className="bg-transparant flex justify-end p-4 gap-5 pb-16"> 
             <div className="mr-auto">
                 <DropdownMenu>
                     <DropdownMenuTrigger>Sentron</DropdownMenuTrigger>

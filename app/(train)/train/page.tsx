@@ -5,7 +5,9 @@ import Hero from "@/components/hero";
 import About from "@/components/about";
 import Footer from "@/components/footer"
 
-import MyForm from "@/components/MLinput1";
+import MyForm1 from "@/components/MLtest";
+import MyForm2 from "@/components/MLtest2";
+
 
 export default function Home() {
   return (
@@ -15,12 +17,32 @@ export default function Home() {
             <div className="text-6xl font-serif">
                New Project
             </div>
-            <div className="flex flex-row gap-8 mx-auto">
-               <div>
-                  <MyForm/>
+            <div className="flex flex-col gap-32 mx-auto">
+               <div className="flex flex-row gap-32">
+                  <MyForm1/>
+                  <div className="mx-auto max-w-screen-xl">
+                     <div className="flex flex-col gap-8">
+                        <div>
+                           Model 1
+                        </div>
+                        <div>
+                           Lorem ipsum
+                        </div>
+                     </div>
+                  </div>
                </div>
-               <div>
-                  {/* <MyForm/> */}
+               <div className="flex flex-row gap-32 mx-auto">
+                  <div className="mx-auto max-w-screen-xl">
+                     <div className="flex flex-col gap-32">
+                        <div>
+                           Model 1
+                        </div>
+                        <div>
+                           Lorem ipsum
+                        </div>
+                     </div>
+                  </div>
+                  <MyForm2/>
                </div>
                <div>
                   {/* <MyForm/> */}

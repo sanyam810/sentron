@@ -16,9 +16,8 @@ const About = () => {
                     allowFullScreen>
                     </iframe>
                  </div>
-                 <div className="text-2xl font-serif">
-                 Sentron is a web-based tool that makes creating machine <br>
-                 </br>learning models fast, easy, and accessible to everyone.
+                 <div className="text-2xl font-serif justify-center items-center">
+                 The new app and web tool for turning text into videos at railway and bus stations tackles important challenges in sharing information with the public. Language diversity often confuses passengers because information isn't available in their language. This system solves this by providing information in multiple regional languages in real-time, benefiting both locals and tourists. It's also easy to adjust as language needs change and has features for different passenger requirements. In the end, it makes sharing important information more efficient and consistent, making travel better for everyone.
                  </div>
             </div>
         </section>

@@ -1,0 +1,7 @@
+ID,Train_No,Arrival,Arrival_Time,Destination,Destination_Time,Platform,Status
+1,54789,Mumbai,7:00 AM,New Delhi,11:00 PM,12,Delayed by 45 minutes
+2,62345,Kolkata,8:30 AM,Chennai,1:30 PM,5,On time
+3,71234,Delhi,9:15 AM,Mumbai,2:45 PM,8,Delayed by 30 minutes
+4,83456,Chennai,10:45 AM,Bangalore,4:15 PM,3,On time
+5,97621,Hyderabad,11:30 AM,Pune,6:00 PM,10,Delayed by 1 hour
+6,56987,Jaipur,12:15 PM,Agra,7:30 PM,2,On time

@@ -32,17 +32,21 @@ export default function Home() {
                   </div>
                </div>
                <div className="flex flex-row gap-32 mx-auto">
-                  <div className="mx-auto max-w-screen-xl">
-                     <div className="flex flex-col gap-32">
+                  <div className="  ">
+                     <div className="flex flex-col gap-4">
                         <div>
-                           Model 1
+                           Model 2
                         </div>
                         <div>
-                           Lorem ipsum
+                        Start by uploading your train schedule in CSV format, <br></br>which includes information such as train numbers, departure and arrival times, stations, and other relevant details.
+
                         </div>
                      </div>
                   </div>
-                  <MyForm2/>
+                  <div className="p-4">
+                     <MyForm2/>
+                  </div>
+                  
                </div>
                <div>
                   {/* <MyForm/> */}

@@ -116,7 +116,7 @@ const MyForm2:React.FC=()=>{
               }
               setShowVideoOverlay(true); // Display video overlay after the delay
               setIsLoading(false);
-        },5000)
+        },60000)
         
 
       } catch (error) {
@@ -125,8 +125,8 @@ const MyForm2:React.FC=()=>{
     };
     
     return (
-      <div className="max-w-lg mx-auto p-4 space-y-4 gradient-bg-welcome rounded-xl text-white">
-        <h1 className="text-2xl font-bold">Image Project</h1>
+      <div className="max-w-lg mx-auto p-8 space-y-4 gradient-bg-welcome rounded-xl text-white">
+        <h1 className="text-2xl font-bold mx-auto">Image Project</h1>
         <p>Teach based on images, from files or your webcam</p>
         <div>
           {/* <label htmlFor="text-input" className="block text-sm font-medium text-gray-700">

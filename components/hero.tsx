@@ -13,13 +13,13 @@ const Hero = () => {
                 <div>
                     <div className="flex flex-col gap-8">
                         <div className="text-6xl font-serif">
-                            Sentron Machine
+                            Sentron
                         </div>
                         <div className="text-4xl font-serif">
-                            Train a computer to recognize your <br></br> own images, sounds, & poses.
+                        Bridging gaps, enhancing travel.<br></br> Inclusive information for all.
                         </div>
-                        <div className="text-2xl font-serif">
-                        A fast, easy way to create machine learning models for <br></br> your sites, apps, and more – no expertise or coding required.
+                        <div className="text-xl font-serif">
+                        In today's fast-paced world, communication at public transportation hubs needs to be more efficient and inclusive.<br></br> However, a significant problem exists: there's often a lack of accessible information, especially in railway and bus stations. This happens because the current communication methods don't meet the diverse language and accessibility needs of passengers. As a result, many travelers struggle to get essential information, making their journey less enjoyable. We need innovative solutions to fix this and give passengers timely and easy-to-access information
                         </div>
                         <div>
                             <Link href="/train">
